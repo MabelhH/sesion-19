@@ -1,0 +1,35 @@
+body{
+
+}
+.buscar{
+    width: 500px;
+    border: 1px rgb(37, 177, 208) solid;  
+}
+.texto{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.texto1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin:10px;
+    padding: 20px;
+    background-color: rgb(208, 249, 249);
+}
+
+.titulotienda{
+ font-size: 40px;
+ text-align: center;
+ color: rgb(0, 255, 64);
+}
+section{
+    margin: 15px;
+    padding: 5px;
+    background-color: blueviolet;
+    
+}
+
+

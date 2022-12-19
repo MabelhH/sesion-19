@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+body{
+    font-family: 'Space Grotesk',sans-serif;
+    background-color:#061b3c;
+    padding: 80px;
+}
+h1{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-weight: 30px;
+}
+img{
+    margin: 5px;
+    padding: 8px;
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    justify-self: start;
+}
+button{
+    color: rgb(51, 15, 232);
+    border-radius: 6px ;
+    font-weight: 1000;
+    border: #255096 2px solid;
+
+}
+.card{
+ width: 380px;
+ padding: 2px;
+ margin: 2px;
+ border: #255096;
+ border-radius: 5px;
+}
+p{
+    color: rgb(26, 230, 60);
+    font-family: sans-serif;
+    font-weight: 50px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+span{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 80px;
+}
+header{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   gap: 15%;
+   top: 0;
+   width: 100%;
+}
+.logo{
+   width: 20px; 
+   height: 80px;
+}
+.carrito{
+    filter: invert(10);
+    width: 45px;
+    height:auto ;
+}
+img{
+    width: 30px;
+    height: 400px;
+    justify-content: center;
+    object-fit: cover;
+    border-radius:20px 20px 0px 0px;
+}
+
+.card{
+    background-color: #255096;
+    
+}
+.sroll{
+    background-color: aliceblue;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+.sroll .logo{
+    filter:invert(15%) ;
+}
+
+.sroll h1{
+    color: darkgreen;
+}
+
+.container{
+display:flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.final{
+    box-shadow:0px px 5px px rgba(0,0,0, 0.75); 
+    background-color: #2D4263;
+    border-radius:10px ;
+ }
+ .final>p:first-child{
+   font-family:'Montserrat',sans-serif ;
+   font-size: 25px;
+   font-weight: 300;
+ }
+  .precio{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+ }
+  .precio span{
+  font-size: 17px;
+  font-weight: 300;
+  text-align: center;
+  justify-content: center;
+ }
+.boton{
+    background-color: #26d0e0;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    justify-content: center;
+    margin-left: 102px;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+
+ }
